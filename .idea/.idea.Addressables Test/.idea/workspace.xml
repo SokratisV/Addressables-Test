@@ -1,18 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="361ccb17-f604-422e-acaf-d462e0a10015" name="Default Changelist" comment="" />
+    <list default="true" id="361ccb17-f604-422e-acaf-d462e0a10015" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerData/StandaloneWindows64/catalog_2020.02.05.19.15.06.hash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerData/StandaloneWindows64/catalog_2020.02.05.19.15.06.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerData/StandaloneWindows64/defaultlocalgroup_assets_all_49e12b4402d0c80371c2f6097f8bdc56.bundle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/00bde4a37c8a28c4281b88c49600dab9_BundledAssetGroupSchema.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/00bde4a37c8a28c4281b88c49600dab9_BundledAssetGroupSchema.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/Windows/addressables_content_state.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/Windows/addressables_content_state.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BAKE.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BAKE.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Titan.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Titan.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GetAddressable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GetAddressable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/catalog_2020.02.05.14.26.27.hash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/catalog_2020.02.05.14.26.27.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/defaultlocalgroup_assets_all_09147f696ed992cf9e361eaa888eedb3.bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/defaultlocalgroup_assets_all_5be5ea934352837fd57b5950ec776347.bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/defaultlocalgroup_assets_all_76de682a24659b5c5dc1117896457c87.bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/defaultlocalgroup_assets_all_a5ef19f4cad46679b426cd0cc90bc0e4.bundle" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpAndDown.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.6.0/Runtime/Addressables.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.6.0/Runtime/AssetReference.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.6.0/Runtime/ResourceManager/AsyncOperations/IAsyncOperation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EmailSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetAddressable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.6.0/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.6.0/Runtime/ResourceManager/AsyncOperations/AsyncOperationHandle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6312B0C4-D854-4C04-BF65-F0A668BFA3EE/0a/c7a4a6a2/Caching.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -34,6 +60,7 @@
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -74,12 +101,24 @@
       <updated>1580833740811</updated>
       <workItem from="1580833742052" duration="3665000" />
       <workItem from="1580900868441" duration="2624000" />
-      <workItem from="1580907461005" duration="6106000" />
+      <workItem from="1580907461005" duration="6644000" />
+      <workItem from="1580924786920" duration="6705000" />
     </task>
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="601" y="246" width="700" height="530" key="recent.locations.popup" timestamp="1580908889834">
       <screen x="0" y="0" width="1920" height="1040" />
