@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 00bde4a37c8a28c4281b88c49600dab9
+  m_SerializeEntries:
+  - m_GUID: 1430600f3296fc442a15ffcbdb5620ed
+    m_Address: ExampleAsset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_GUID: 3e099fd6c20090945831c49db0301a53
+    m_Address: BAKE
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  - m_GUID: e7d5a1ed0ebfcb740b32c6f1216a6b3d
+    m_Address: Assets/Scripts/EmailSettings.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_mainAssetType: Email.EmailSettings, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  - m_GUID: f1e393253c7c52241a843c3fa73a5de2
+    m_Address: Titan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 88ee22d1f59fd624b99ef48192a1c39f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2c1b84569b9001d44849b7decb8f22ec, type: 2}
+    - {fileID: 11400000, guid: 566bb4e3625b9c74180c0d47be2b5ddc, type: 2}

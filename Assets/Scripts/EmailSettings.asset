@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f52de9f79ab07d4a930ebad59049870, type: 3}
+  m_Name: EmailSettings
+  m_EditorClassIdentifier: 
+  smtpClient: smtp.gmail.com
+  port: 587
+  timeout: 10000
+  mailAddressFrom: nilelabgames@gmail.com
+  mailAddressTo: OOOOOOOOO
+  subject: "\u039F\u0394\u0397\u0393\u0399\u0395\u03A3 \u03A0\u039B\u039F\u0397\u0393\u0397\u03A3\u0397\u03A3-\u0392\u0395\u039D\u0399\u0396\u0395\u039B\u0395\u0399\u039F
+    \u039D\u039F\u03A3\u039F\u039A\u039F\u039C\u0395\u0399\u039F \u0397\u03A1\u0391\u039A\u039B\u0395\u0399\u039F\u03A5"
+  body: 
+  fileImagePath: /StreamingAssets/snap.png
+  userName: nilelabgames@gmail.com
+  password: n1l3g@m3l@b
+  enableSSL: 1
