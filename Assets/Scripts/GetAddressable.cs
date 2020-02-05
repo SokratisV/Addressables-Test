@@ -4,6 +4,7 @@ using UnityEditor.Build.Pipeline.Utilities;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GetAddressable : MonoBehaviour
@@ -46,9 +47,9 @@ public class GetAddressable : MonoBehaviour
                 Addressables.ClearDependencyCacheAsync(asset);
             }
         }
-        Caching.ClearCache();
         downloadSize.text = "0.0";
         CleanUp();
+        SceneManager.LoadScene("SampleScene 1");
     }
 
     public void InstantiateInstances()

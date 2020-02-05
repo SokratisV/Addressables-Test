@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="361ccb17-f604-422e-acaf-d462e0a10015" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServerData/StandaloneWindows64/catalog_2020.02.05.19.15.06.hash" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServerData/StandaloneWindows64/catalog_2020.02.05.19.15.06.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServerData/StandaloneWindows64/defaultlocalgroup_assets_all_49e12b4402d0c80371c2f6097f8bdc56.bundle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene 1.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene 1.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/00bde4a37c8a28c4281b88c49600dab9_BundledAssetGroupSchema.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/00bde4a37c8a28c4281b88c49600dab9_BundledAssetGroupSchema.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/Windows/addressables_content_state.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/Windows/addressables_content_state.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BAKE.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BAKE.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Titan.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Titan.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GetAddressable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GetAddressable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/catalog_2020.02.05.14.26.27.hash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/catalog_2020.02.05.14.26.27.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/defaultlocalgroup_assets_all_09147f696ed992cf9e361eaa888eedb3.bundle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/defaultlocalgroup_assets_all_5be5ea934352837fd57b5950ec776347.bundle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/defaultlocalgroup_assets_all_76de682a24659b5c5dc1117896457c87.bundle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/defaultlocalgroup_assets_all_a5ef19f4cad46679b426cd0cc90bc0e4.bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +90,7 @@
       <workItem from="1580900868441" duration="2624000" />
       <workItem from="1580907461005" duration="6644000" />
       <workItem from="1580924786920" duration="6705000" />
+      <workItem from="1580932224211" duration="631000" />
     </task>
     <servers />
   </component>
@@ -113,7 +101,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
