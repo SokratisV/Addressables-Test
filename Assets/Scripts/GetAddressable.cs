@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Build.Pipeline.Utilities;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
@@ -49,7 +48,9 @@ public class GetAddressable : MonoBehaviour
         }
         downloadSize.text = "0.0";
         CleanUp();
-        SceneManager.LoadScene("SampleScene 1");
+        
+        // Addressables.UpdateCatalogs(Addressables.CheckForCatalogUpdates().Result);
+        // SceneManager.LoadScene("SampleScene 1");
     }
 
     public void InstantiateInstances()
@@ -63,6 +64,7 @@ public class GetAddressable : MonoBehaviour
 
     private IEnumerator Check(AssetReference assetReference)
     {
+
         var op = Addressables.GetDownloadSizeAsync(assetReference);
         while (!op.IsDone)
         {
