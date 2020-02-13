@@ -8,9 +8,28 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
-          <e p="EmailSettings.cs" t="Include" />
-          <e p="GetAddressable.cs" t="Include" />
-          <e p="UpAndDown.cs" t="Include" />
+          <e p="AddressableReferenceLoad" t="Include">
+            <e p="AssetLabel" t="Include">
+              <e p="AddressableLocationLoader.cs" t="Include" />
+              <e p="CreateAddressablesLoader.cs" t="Include" />
+              <e p="CreatedAssets.cs" t="Include" />
+              <e p="LoadedAddressableLocations.cs" t="Include" />
+              <e p="SortedCreateAssets.cs" t="Include" />
+            </e>
+            <e p="AssetRef" t="Include">
+              <e p="AssetRefLoader.cs" t="Include" />
+              <e p="AssetRefObjectData.cs" t="Include" />
+            </e>
+            <e p="AssetRemote" t="Include">
+              <e p="LoadAssetsFromRemote.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Scene1" t="Include">
+            <e p="EmailSettings.cs" t="Include" />
+            <e p="GetAddressable.cs" t="Include" />
+            <e p="LoadThroughAddressables.cs" t="Include" />
+            <e p="UpAndDown.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

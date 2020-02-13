@@ -2,11 +2,216 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="361ccb17-f604-422e-acaf-d462e0a10015" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene 1.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene 1.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Local.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Local.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Remote.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Remote.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/b7bab08fff17f26468c0f425b71e0729_BundledAssetGroupSchema.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/b7bab08fff17f26468c0f425b71e0729_BundledAssetGroupSchema.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/b7bab08fff17f26468c0f425b71e0729_ContentUpdateGroupSchema.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/b7bab08fff17f26468c0f425b71e0729_ContentUpdateGroupSchema.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/de4ae867e89b54c43a39f6e7c72495b5_BundledAssetGroupSchema.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/de4ae867e89b54c43a39f6e7c72495b5_BundledAssetGroupSchema.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/de4ae867e89b54c43a39f6e7c72495b5_ContentUpdateGroupSchema.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/de4ae867e89b54c43a39f6e7c72495b5_ContentUpdateGroupSchema.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/Materials/RetopoPantsUV_TXTR.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/Materials/RetopoPantsUV_TXTR.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/Materials/ZombieHQ_material4_Albedo.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/Materials/ZombieHQ_material4_Albedo.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/Materials/ZombieHQ_material5_AlbedoTransparency.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/Materials/ZombieHQ_material5_AlbedoTransparency.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/Materials/ZombieHQ_material_AlbedoTransparency.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/Materials/ZombieHQ_material_AlbedoTransparency.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/Materials/material.001.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/Materials/material.001.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/Materials/material.002.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/Materials/material.002.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/Materials/material.003.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/Materials/material.003.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/Materials/material.005.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/Materials/material.005.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/Materials/material.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/Materials/material.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/PantsALpha1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/PantsALpha1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material1_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material1_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material1_SpecularSmoothness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material1_SpecularSmoothness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material2_AlbedoTransparency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material2_AlbedoTransparency.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material2_Ambient.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material2_Ambient.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material2_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material2_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material2_SpecularSmoothness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material2_SpecularSmoothness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material3_AlbedoTransparency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material3_AlbedoTransparency.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material3_Ambient.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material3_Ambient.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material3_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material3_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material3_SpecularSmoothness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material3_SpecularSmoothness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material4_Albedo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material4_Albedo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material4_AlbedoTransparency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material4_AlbedoTransparency.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material4_Ambient.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material4_Ambient.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material4_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material4_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material4_SpecularSmoothness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material4_SpecularSmoothness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material5_AlbedoTransparency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material5_AlbedoTransparency.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material5_Ambient.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material5_Ambient.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material5_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material5_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material5_SpecularSmoothness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material5_SpecularSmoothness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material_AlbedoTransparency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material_AlbedoTransparency.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material_Normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material_Normal.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material_SpecularSmoothness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieHQ_material_SpecularSmoothness.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieRig.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Imported Assets/Zombie/ZombieRig.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ZombieRig.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/ZombieRig.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Scene1.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Scene1.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/AddressableLocationLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/AddressableLocationLoader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/CreateAddressablesLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/CreatedAssets.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/LoadedAddressableLocations.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/LoadedAddressableLocations.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/SortedCreateAssets.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRemote/LoadAssetsFromRemote.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRemote/LoadAssetsFromRemote.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerData/StandaloneWindows64/catalog_2020.02.13.11.14.13.hash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerData/StandaloneWindows64/catalog_2020.02.13.11.14.13.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerData/StandaloneWindows64/defaultlocalgroup_assets_all_4cd2fbbac65c58cd11ba86fcfbd0ae89.bundle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerData/StandaloneWindows64/defaultlocalgroup_unitybuiltinshaders_e6cc15422a4a71d1cde36b06b684ccf4.bundle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerData/StandaloneWindows64/local_assets_all_f49c5ac8e641024107eb361c61c3dbf6.bundle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerData/StandaloneWindows64/remote_assets_all_7da04e3789b6664c654957973c44d542.bundle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GetAddressable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GetAddressable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/Windows/addressables_content_state.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/Windows/addressables_content_state.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Materials/Titan__Albedo.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Materials/Titan__Albedo.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Titan@Attack(1).fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Titan@Attack(1).fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Titan@Attack(2).fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Titan@Attack(2).fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Titan@Attack(3).fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Titan@Attack(3).fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Titan@Death.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Titan@Death.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Titan@GetHit.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Titan@GetHit.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Titan@Idle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Titan@Idle.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Titan@Jump.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Titan@Jump.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Titan@Run.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Titan@Run.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Titan@Shout.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Titan@Shout.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Titan@Shout2.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Titan@Shout2.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Titan@Walk.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Animation/Titan@Walk.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Materials/Titan.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Materials/Titan.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Mesh/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Mesh/Materials/Titan__Albedo.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Mesh/Materials/Titan__Albedo.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Mesh/Titan.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Mesh/Titan.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Stand.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Stand/Mesh.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Stand/Mesh/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Stand/Mesh/Materials/Cylinder001Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Stand/Mesh/Materials/Cylinder001Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Stand/Mesh/Materials/Stand.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Stand/Mesh/Materials/Stand.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Stand/Mesh/Stand.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Stand/Mesh/Stand.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Texture.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Texture/Titan__Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Texture/Titan__Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Texture/Titan__Ao.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Texture/Titan__Ao.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Texture/Titan__Metallic.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Texture/Titan__Metallic.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Texture/Titan__normals.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Texture/Titan__normals.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Titan.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Creatures Titan/Titan.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free Droid.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free Droid/BAKE.OBJ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free Droid/BAKE.OBJ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free Droid/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free Droid/Materials/BaseMaterial_ao.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free Droid/Materials/BaseMaterial_ao.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free Droid/Materials/BaseMaterial_diffuse.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free Droid/Materials/BaseMaterial_diffuse.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free Droid/Materials/BaseMaterial_normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free Droid/Materials/BaseMaterial_normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free Droid/Materials/BaseMaterial_specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free Droid/Materials/BaseMaterial_specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free Droid/Materials/defaultMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Free Droid/Materials/defaultMat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BAKE.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BAKE.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Titan.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Titan.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene 1.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene 1.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EmailSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EmailSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EmailSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EmailSettings.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GetAddressable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GetAddressable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UpAndDown.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UpAndDown.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures/diffuse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures/diffuse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures/normal_specular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures/normal_specular.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures/shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures/shadow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures/translucency_gloss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures/translucency_gloss.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/catalog_2020.02.06.09.01.54.hash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/catalog_2020.02.06.09.01.54.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/defaultlocalgroup_assets_all_270dbfeb24d2df4914fb1fdbd59c59b9.bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/defaultlocalgroup_assets_all_313f31abf6ca1f52d5c5348ee0f280c6.bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/defaultlocalgroup_assets_all_49e12b4402d0c80371c2f6097f8bdc56.bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/defaultlocalgroup_unitybuiltinshaders_9e5415beb4358164478bb81cf3e26d28.bundle" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,15 +222,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UpAndDown.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.6.0/Runtime/Addressables.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.6.0/Runtime/AssetReference.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.6.0/Runtime/ResourceManager/AsyncOperations/IAsyncOperation.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EmailSettings.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetAddressable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.6.0/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.6.0/Runtime/ResourceManager/AsyncOperations/AsyncOperationHandle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/SortedCreateAssets.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6312B0C4-D854-4C04-BF65-F0A668BFA3EE/0a/c7a4a6a2/Caching.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.6.0/Runtime/Addressables.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/CreateAddressablesLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/LoadedAddressableLocations.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/AddressableLocationLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/CreatedAssets.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRemote/LoadAssetsFromRemote.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -35,16 +244,30 @@
         <option value="$PROJECT_DIR$/Assets/UpAndDown.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UpAndDown.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GetAddressable.cs" />
+        <option value="$PROJECT_DIR$/Assets/LoadThroughAddressables.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LoadThroughAddressables.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRefLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRefObjectData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AddressableLocationLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/LoadedAddressableLocations.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/CreateAddressablesLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/CreatedAssets.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/SortedCreateAssets.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRemote/LoadAssetsFromRemote.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1XLmRXQ38B3lI1MJATTCEkEFHMK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.4" value="true" />
@@ -91,6 +314,10 @@
       <workItem from="1580907461005" duration="6644000" />
       <workItem from="1580924786920" duration="6705000" />
       <workItem from="1580932224211" duration="631000" />
+      <workItem from="1581515994380" duration="5187000" />
+      <workItem from="1581538410246" duration="1339000" />
+      <workItem from="1581588487669" duration="2331000" />
+      <workItem from="1581590907508" duration="2080000" />
     </task>
     <servers />
   </component>
@@ -109,10 +336,17 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="601" y="246" width="700" height="530" key="recent.locations.popup" timestamp="1580908889834">
+    <state x="640" y="257" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581590766718">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="601" y="246" width="700" height="530" key="recent.locations.popup/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1580908889834" />
+    <state x="640" y="257" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1581590766718" />
+    <state x="601" y="246" width="700" height="530" key="recent.locations.popup" timestamp="1581521377824">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="601" y="246" width="700" height="530" key="recent.locations.popup/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1581521377824" />
   </component>
 </project>

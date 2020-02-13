@@ -17,30 +17,13 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 00bde4a37c8a28c4281b88c49600dab9
   m_SerializeEntries:
-  - m_GUID: 1430600f3296fc442a15ffcbdb5620ed
-    m_Address: ExampleAsset
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  - m_GUID: 3e099fd6c20090945831c49db0301a53
-    m_Address: BAKE
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   - m_GUID: e7d5a1ed0ebfcb740b32c6f1216a6b3d
-    m_Address: Assets/Scripts/EmailSettings.asset
+    m_Address: EmailSettings
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - default
     m_mainAssetType: Email.EmailSettings, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
       PublicKeyToken=null
-  - m_GUID: f1e393253c7c52241a843c3fa73a5de2
-    m_Address: Titan
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 88ee22d1f59fd624b99ef48192a1c39f, type: 2}
   m_SchemaSet:
