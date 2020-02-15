@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
@@ -7,8 +6,6 @@ using UnityEngine.ResourceManagement.AsyncOperations;
 
 public static class AddressablesManager
 {
-    // <New>
-
     /// <summary>
     /// Loads an AssetReference to memory and adds its handle to the Dictionary if it does not already exist.
     /// </summary>
@@ -67,8 +64,6 @@ public static class AddressablesManager
                 Debug.Log("Something went wrong in asset load.");
             }
         }
-
-        Debug.Log(dictionary.Count);
     }
 
     //TODO: Add overloads for InstantiateAsync
@@ -134,9 +129,13 @@ public static class AddressablesManager
             await handle.Task;
             if (handle.Status == AsyncOperationStatus.Succeeded)
             {
+                if (!dictionary.ContainsKey(reference))
+                {
+                    dictionary[reference] = new List<GameObject>();
+                }
+
                 if (!moreThanOneInstance)
                 {
-                    Debug.Log("Cleared");
                     dictionary[reference].Clear();
                 }
 
@@ -159,15 +158,14 @@ public static class AddressablesManager
         {
             if (keyValuePair.Value.Count == 0)
             {
-                Debug.Log($"Removing {keyValuePair.Key.Asset.name}");
                 Addressables.Release(asyncHandles[keyValuePair.Key]);
-                asyncHandles.Remove(keyValuePair.Key);
                 referencesToBeRemoved.Add(keyValuePair.Key);
             }
         }
 
         foreach (var reference in referencesToBeRemoved)
         {
+            asyncHandles.Remove(reference);
             dictionary.Remove(reference);
         }
     }
@@ -215,63 +213,4 @@ public static class AddressablesManager
             Addressables.ReleaseInstance(go);
         }
     }
-
-    // <Old>
-    // public static async Task InstantiateAndAddToList<T>(AssetReference reference, List<T> instantiatedObjects)
-    //     where T : Object
-    // {
-    //     instantiatedObjects.Add(await reference.InstantiateAsync().Task as T);
-    // }
-    //
-    // public static async Task InstantiateAndAddToList<T>(List<AssetReference> references, List<T> instantiatedObjects)
-    //     where T : Object
-    // {
-    //     foreach (var reference in references)
-    //     {
-    //         instantiatedObjects.Add(await reference.InstantiateAsync().Task as T);
-    //     }
-    // }
-    //
-    // public static async Task LoadAssetAndSaveHandle<T>(List<AssetReference> references, List<T> loadedObjects)
-    //     where T : Object
-    // {
-    //     foreach (var reference in references)
-    //     {
-    //         loadedObjects.Add(await reference.LoadAssetAsync<T>().Task);
-    //     }
-    // }
-    //
-    // public static async Task LoadAssetAndSaveHandle<T>(AssetReference reference, List<T> loadedObjects)
-    //     where T : Object
-    // {
-    //     loadedObjects.Add(await reference.LoadAssetAsync<T>().Task);
-    // }
-    //
-    // public static void ReleaseAssetsFromList<T>(List<T> objects)
-    //     where T : Object
-    // {
-    //     foreach (var go in objects)
-    //     {
-    //         Addressables.Release(go);
-    //     }
-    // }
-    //
-    //
-    // public static void ReleaseAsset<T>(T asset)
-    // {
-    //     Addressables.Release(asset);
-    // }
-    //
-    // public static void ReleaseAssetInstance(GameObject asset)
-    // {
-    //     Addressables.ReleaseInstance(asset);
-    // }
-    //
-    // public static void ReleaseAllInstances(List<GameObject> gameObjects)
-    // {
-    //     foreach (var go in gameObjects)
-    //     {
-    //         Addressables.ReleaseInstance(go);
-    //     }
-    // }
 }

@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="361ccb17-f604-422e-acaf-d462e0a10015" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/AddressablesReferenceLoad.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AddressablesReferenceLoad.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AddressablesManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefLoader.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AddressablesManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AddressablesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AddressablesManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefObjectData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefObjectData.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +121,7 @@
       <workItem from="1581588487669" duration="2331000" />
       <workItem from="1581590907508" duration="2080000" />
       <workItem from="1581696392123" duration="18198000" />
-      <workItem from="1581753648018" duration="13173000" />
+      <workItem from="1581753648018" duration="16051000" />
     </task>
     <servers />
   </component>
@@ -159,9 +156,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="601" y="246" width="700" height="530" key="recent.locations.popup/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1581521377824" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1581697192930">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1581773213390">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1581697192930" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1581773213390" />
   </component>
 </project>

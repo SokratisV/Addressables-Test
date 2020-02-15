@@ -21,7 +21,6 @@ public class AssetRefObjectData : MonoBehaviour
     {
         if (_loadedObjects.Count > 0)
         {
-            print(_loadedObjects.First().Key.Asset.name);
             instantiated = _loadedObjects.First().Value;
         }
     }
