@@ -24,6 +24,9 @@
               <e p="LoadAssetsFromRemote.cs" t="Include" />
             </e>
           </e>
+          <e p="NormalReferenceLoad" t="Include">
+            <e p="SpawnObjects.cs" t="Include" />
+          </e>
           <e p="Scene1" t="Include">
             <e p="EmailSettings.cs" t="Include" />
             <e p="GetAddressable.cs" t="Include" />

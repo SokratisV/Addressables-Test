@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="361ccb17-f604-422e-acaf-d462e0a10015" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NormalReferenceLoad/SpawnObjects.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AddressablesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AddressablesManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefObjectData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefObjectData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/AddressablesReferenceLoad.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AddressablesReferenceLoad.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/NormalReferenceLoad.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NormalReferenceLoad.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.6.0/Runtime/ResourceManager/AsyncOperations/IAsyncOperation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.6.0/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene1/UpAndDown.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NormalReferenceLoad/SpawnObjects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene1/LoadThroughAddressables.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.6.0/Runtime/ResourceManager/AsyncOperations/AsyncOperationHandle.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" root0="FORCE_HIGHLIGHTING" />
@@ -30,6 +33,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/CreateAddressablesLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/LoadedAddressableLocations.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/AddressableLocationLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/AddressablesReferenceLoad.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/CreatedAssets.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRemote/LoadAssetsFromRemote.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7559BF97-67E7-4FF5-906F-18401F66CD57/91/e1a330e3/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
@@ -56,6 +60,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefObjectData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AddressablesManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NormalReferenceLoad/SpawnObjects.cs" />
       </list>
     </option>
   </component>
@@ -121,7 +126,8 @@
       <workItem from="1581588487669" duration="2331000" />
       <workItem from="1581590907508" duration="2080000" />
       <workItem from="1581696392123" duration="18198000" />
-      <workItem from="1581753648018" duration="16051000" />
+      <workItem from="1581753648018" duration="16439000" />
+      <workItem from="1581780300188" duration="2221000" />
     </task>
     <servers />
   </component>
