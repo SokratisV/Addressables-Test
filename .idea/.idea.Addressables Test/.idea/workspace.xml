@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="361ccb17-f604-422e-acaf-d462e0a10015" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ServerData/StandaloneWindows64/local_assets_all_09d43756ed781d159753e2541246b569.bundle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ServerData/StandaloneWindows64/remote_assets_all_77aa5b1c55d75038eb5a837559bc0c55.bundle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BAKE.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BAKE.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Titan.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Titan.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ZombieRig.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ZombieRig.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/AddressablesReferenceLoad.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AddressablesReferenceLoad.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AddressablesManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefLoader.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AddressablesManager.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefObjectData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefObjectData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scene1/UpAndDown.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scene1/UpAndDown.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/catalog_2020.02.13.11.14.13.hash" beforeDir="false" afterPath="$PROJECT_DIR$/ServerData/StandaloneWindows64/catalog_2020.02.13.11.14.13.hash" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/catalog_2020.02.13.11.14.13.json" beforeDir="false" afterPath="$PROJECT_DIR$/ServerData/StandaloneWindows64/catalog_2020.02.13.11.14.13.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +29,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6312B0C4-D854-4C04-BF65-F0A668BFA3EE/0a/c7a4a6a2/Caching.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefObjectData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.6.0/Runtime/Addressables.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AddressablesManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/CreateAddressablesLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/LoadedAddressableLocations.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/AddressableLocationLoader.cs" root0="FORCE_HIGHLIGHTING" />
@@ -62,8 +56,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/SortedCreateAssets.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRemote/LoadAssetsFromRemote.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scene1/UpAndDown.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefObjectData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefObjectData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AddressablesManager.cs" />
       </list>
     </option>
   </component>
@@ -129,6 +124,7 @@
       <workItem from="1581588487669" duration="2331000" />
       <workItem from="1581590907508" duration="2080000" />
       <workItem from="1581696392123" duration="18198000" />
+      <workItem from="1581753648018" duration="13173000" />
     </task>
     <servers />
   </component>
@@ -155,6 +151,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="257" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1581590766718" />
+    <state x="92" y="92" width="1736" height="856" key="dock-window-1" timestamp="1581758044010">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="dock-window-1/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1581758044010" />
     <state x="601" y="246" width="700" height="530" key="recent.locations.popup" timestamp="1581521377824">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

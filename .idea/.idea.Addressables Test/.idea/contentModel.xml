@@ -17,7 +17,7 @@
               <e p="SortedCreateAssets.cs" t="Include" />
             </e>
             <e p="AssetRef" t="Include">
-              <e p="AssetRefLoader.cs" t="Include" />
+              <e p="AddressablesManager.cs" t="Include" />
               <e p="AssetRefObjectData.cs" t="Include" />
             </e>
             <e p="AssetRemote" t="Include">
