@@ -21,7 +21,6 @@ MonoBehaviour:
     m_Address: ZombieRig
     m_ReadOnly: 0
     m_SerializedLabels:
-    - local
     - remote
     m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
@@ -29,6 +28,7 @@ MonoBehaviour:
     m_Address: Titan
     m_ReadOnly: 0
     m_SerializedLabels:
+    - remote
     - default
     m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null

@@ -10,8 +10,9 @@ public class GetAddressable : MonoBehaviour
 {
     [SerializeField] private List<AssetReference> assetsReferences;
     [SerializeField] private Text downloadSize;
-    
+
     private long _totalDownloadSize;
+
     private readonly Dictionary<AssetReference, AsyncOperationHandle<GameObject>> _asyncOperationHandles =
         new Dictionary<AssetReference, AsyncOperationHandle<GameObject>>();
 
@@ -46,6 +47,7 @@ public class GetAddressable : MonoBehaviour
                 Addressables.ClearDependencyCacheAsync(asset);
             }
         }
+
         downloadSize.text = "0.0";
         CleanUp();
     }
@@ -61,17 +63,17 @@ public class GetAddressable : MonoBehaviour
 
     private IEnumerator Check(AssetReference assetReference)
     {
-
         var op = Addressables.GetDownloadSizeAsync(assetReference);
         while (!op.IsDone)
         {
             yield return null;
         }
+
         _totalDownloadSize += op.Result;
 
         // IF updates found, download updates.
         downloadSize.text = BytesToMegabytes(_totalDownloadSize);
-        
+
         if (op.Result > 0)
         {
             var op1 = Addressables.DownloadDependenciesAsync(assetReference);
@@ -83,7 +85,7 @@ public class GetAddressable : MonoBehaviour
         }
     }
 
-    private string BytesToMegabytes(long totalDownloadSize)
+    private static string BytesToMegabytes(long totalDownloadSize)
     {
         var value = $"{totalDownloadSize / 1024f / 1024f:F1}";
         return value;

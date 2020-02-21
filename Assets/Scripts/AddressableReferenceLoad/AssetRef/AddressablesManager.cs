@@ -213,4 +213,35 @@ public static class AddressablesManager
             Addressables.ReleaseInstance(go);
         }
     }
+
+    public static async void CheckForUpdates(List<AssetReference> assetList)
+    {
+        // await Addressables.UpdateCatalogs(await Addressables.CheckForCatalogUpdates().Task).Task;
+    }
+
+    public static async Task<float> GetTotalDownloadSize(List<AssetReference> assetList)
+    {
+        var totalSize = 0f;
+        foreach (var asset in assetList)
+        {
+            var task = Addressables.GetDownloadSizeAsync(asset).Task;
+            await task;
+            totalSize += task.Result;
+        }
+
+        return totalSize;
+    }
+
+    public static async Task DownloadAllAssets(List<AssetReference> assetList)
+    {
+        foreach (var asset in assetList)
+        {
+            await Addressables.DownloadDependenciesAsync(asset).Task;
+        }
+    }
+
+    public static void ClearCache()
+    {
+        Caching.ClearCache();
+    }
 }

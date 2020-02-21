@@ -16,14 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 00bde4a37c8a28c4281b88c49600dab9
-  m_SerializeEntries:
-  - m_GUID: e7d5a1ed0ebfcb740b32c6f1216a6b3d
-    m_Address: EmailSettings
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - default
-    m_mainAssetType: Email.EmailSettings, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 88ee22d1f59fd624b99ef48192a1c39f, type: 2}
   m_SchemaSet:

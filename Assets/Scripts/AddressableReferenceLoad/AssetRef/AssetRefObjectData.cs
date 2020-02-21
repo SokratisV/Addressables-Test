@@ -1,8 +1,10 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
+using UnityEngine.UI;
 
 public class AssetRefObjectData : MonoBehaviour
 {
@@ -15,13 +17,16 @@ public class AssetRefObjectData : MonoBehaviour
         new Dictionary<AssetReference, AsyncOperationHandle<GameObject>>();
 
     // For editor debugging
-    public List<GameObject> instantiated;
+    // public List<GameObject> instantiated;
+    public GameObject downloadPrefab;
+    private Dictionary<AssetReference, float> downloads = new Dictionary<AssetReference, float>();
+    private float downloadPercent = 0f;
 
     public void SyncList()
     {
         if (_loadedObjects.Count > 0)
         {
-            instantiated = _loadedObjects.First().Value;
+            // instantiated = _loadedObjects.First().Value;
         }
     }
 
@@ -51,5 +56,61 @@ public class AssetRefObjectData : MonoBehaviour
         AddressablesManager.ReleaseUnusedAssets(_asyncOperationHandles, _loadedObjects);
     }
 
+    public void ClearCache()
+    {
+        AddressablesManager.ClearCache();
+    }
+
+    public async void GetDownloadSize()
+    {
+        var task = AddressablesManager.GetTotalDownloadSize(references);
+        await task;
+        // Should make event and have the object observing..
+        downloadPrefab.GetComponentInChildren<Text>().text = $"{BytesToMegabytes(task.Result):F1} MB";
+        // StartCoroutine(DownloadProgressTracker());
+        foreach (var assetReference in references)
+        {
+            StartCoroutine(DownloadProgressTracker(assetReference));
+        }
+    }
+
     //</Invoked from buttons>
+
+    private IEnumerator DownloadProgressTracker(AssetReference asset)
+    {
+        downloads[asset] = 0f;
+        var op = Addressables.DownloadDependenciesAsync(asset);
+        while (!op.IsDone)
+        {
+            downloads[asset] = op.PercentComplete;
+            yield return null;
+        }
+    }
+
+    private void Update()
+    {
+        var image = downloadPrefab.GetComponentInChildren<Image>();
+        var tempDownload = 0f;
+        foreach (var keyValuePair in downloads)
+        {
+            tempDownload += keyValuePair.Value;
+        }
+
+        downloadPercent = tempDownload / 3;
+        if (downloadPercent * 2 > .9f)
+        {
+            print("HELLO");
+            image.fillAmount = 1;
+        }
+        else
+        {
+            print("ITS ME");
+            image.fillAmount = downloadPercent * 2;
+        }
+    }
+
+    private static float BytesToMegabytes(float bytes)
+    {
+        return bytes / 1024f / 1024f;
+    }
 }

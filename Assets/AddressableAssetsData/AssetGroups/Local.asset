@@ -21,7 +21,8 @@ MonoBehaviour:
     m_Address: BAKE
     m_ReadOnly: 0
     m_SerializedLabels:
-    - remote
+    - local
+    - default
     m_mainAssetType: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   m_ReadOnly: 0

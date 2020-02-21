@@ -2,11 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="361ccb17-f604-422e-acaf-d462e0a10015" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/NormalReferenceLoad/SpawnObjects.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Images.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Images/line-white-png.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Images/line-white-png.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/DownloadPrefab.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/DownloadPrefab.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerData/StandaloneWindows64/catalog_2020.02.16.10.30.30.hash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerData/StandaloneWindows64/catalog_2020.02.16.10.30.30.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerData/StandaloneWindows64/local_assets_all_9cb3e4bf2cff321421f7523c1d5fdb1b.bundle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServerData/StandaloneWindows64/remote_assets_all_370d891d7a7375177f81bab9978379bc.bundle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Addressables Test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Addressables Test/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Addressables Test/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Local.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Local.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Remote.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Remote.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/00bde4a37c8a28c4281b88c49600dab9_BundledAssetGroupSchema.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/00bde4a37c8a28c4281b88c49600dab9_BundledAssetGroupSchema.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/Windows/addressables_content_state.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/Windows/addressables_content_state.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Imported Assets/Free Droid/Materials/defaultMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Imported Assets/Free Droid/Materials/defaultMat.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BAKE.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BAKE.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Titan.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Titan.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ZombieRig.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ZombieRig.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/AddressablesReferenceLoad.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/AddressablesReferenceLoad.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/NormalReferenceLoad.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NormalReferenceLoad.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AddressablesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AddressablesManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefObjectData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefObjectData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Scene1/GetAddressable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Scene1/GetAddressable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/catalog_2020.02.13.11.14.13.hash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/catalog_2020.02.13.11.14.13.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/defaultlocalgroup_assets_all_4cd2fbbac65c58cd11ba86fcfbd0ae89.bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/defaultlocalgroup_unitybuiltinshaders_e6cc15422a4a71d1cde36b06b684ccf4.bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/local_assets_all_09d43756ed781d159753e2541246b569.bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/local_assets_all_f49c5ac8e641024107eb361c61c3dbf6.bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/remote_assets_all_619c45df915b3953789eb20b6c861c15.bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/remote_assets_all_77aa5b1c55d75038eb5a837559bc0c55.bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ServerData/StandaloneWindows64/remote_assets_all_7da04e3789b6664c654957973c44d542.bundle" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,18 +53,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.6.0/Runtime/AssetReference.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.6.0/Runtime/ResourceManager/AsyncOperations/IAsyncOperation.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.6.0/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.6.2/Runtime/Addressables.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.6.2/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.6.2/Runtime/ResourceManager/AsyncOperations/AsyncOperationHandle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Schemas/00bde4a37c8a28c4281b88c49600dab9_BundledAssetGroupSchema.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene1/UpAndDown.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NormalReferenceLoad/SpawnObjects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene1/LoadThroughAddressables.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.6.0/Runtime/ResourceManager/AsyncOperations/AsyncOperationHandle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.6.2/Runtime/ResourceManager/AsyncOperations/IAsyncOperation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene1/GetAddressable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/SortedCreateAssets.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6312B0C4-D854-4C04-BF65-F0A668BFA3EE/0a/c7a4a6a2/Caching.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefObjectData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.6.0/Runtime/Addressables.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AddressablesManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/CreateAddressablesLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetLabel/LoadedAddressableLocations.cs" root0="FORCE_HIGHLIGHTING" />
@@ -58,9 +95,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRemote/LoadAssetsFromRemote.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Scene1/UpAndDown.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefObjectData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AddressablesManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NormalReferenceLoad/SpawnObjects.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scene1/GetAddressable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AddressablesManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AddressableReferenceLoad/AssetRef/AssetRefObjectData.cs" />
       </list>
     </option>
   </component>
@@ -76,7 +114,9 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
@@ -127,7 +167,12 @@
       <workItem from="1581590907508" duration="2080000" />
       <workItem from="1581696392123" duration="18198000" />
       <workItem from="1581753648018" duration="16439000" />
-      <workItem from="1581780300188" duration="2221000" />
+      <workItem from="1581780300188" duration="2819000" />
+      <workItem from="1581849175570" duration="634000" />
+      <workItem from="1582218612869" duration="15000" />
+      <workItem from="1582218639073" duration="3600000" />
+      <workItem from="1582305395932" duration="28000" />
+      <workItem from="1582305707884" duration="9649000" />
     </task>
     <servers />
   </component>
@@ -150,10 +195,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="640" y="257" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581590766718">
+    <state x="640" y="257" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582218619270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="257" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1581590766718" />
+    <state x="640" y="257" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1680.1050@0.0.1920.1040" timestamp="1582218619270" />
     <state x="92" y="92" width="1736" height="856" key="dock-window-1" timestamp="1581758044010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
